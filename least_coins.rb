@@ -30,4 +30,4 @@ dimes = cents / 10
   end 
 end
 
-puts least_coins(50)
+puts least_coins(29)

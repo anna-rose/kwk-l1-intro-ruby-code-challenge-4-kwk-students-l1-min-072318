@@ -28,5 +28,6 @@ dimes = cents / 10
   elsif pennies != 0 
     coins[:pennies] = pennies
   end 
-puts least_coins(29)
+puts coins
 end 
+least_coins(29)

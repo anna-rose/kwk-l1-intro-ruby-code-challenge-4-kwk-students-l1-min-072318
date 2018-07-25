@@ -26,5 +26,10 @@ dimes = cents / 10
     coins[:nickels] = nickels
     cents = cents - mickels * 5
   end 
-  
+  pennies = cents
+  if pennies == 0 
+    coins[:pennies] = 0 
+  elsif pennies != 0 
+    coins[:pennies] = pennies
+  end 
 end

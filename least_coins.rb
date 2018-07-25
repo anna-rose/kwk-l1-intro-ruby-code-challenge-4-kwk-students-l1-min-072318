@@ -28,6 +28,5 @@ dimes = cents / 10
   elsif pennies != 0 
     coins[:pennies] = pennies
   end 
-end
-
 coins 
+end 

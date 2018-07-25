@@ -30,4 +30,4 @@ dimes = cents / 10
   end 
 end
 
-puts coins(29)
+puts coins{29}

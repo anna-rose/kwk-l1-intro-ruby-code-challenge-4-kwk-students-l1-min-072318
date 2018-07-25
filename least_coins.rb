@@ -28,5 +28,5 @@ dimes = cents / 10
   elsif pennies != 0 
     coins[:pennies] = pennies
   end 
-puts coins(29)
+puts leaset_coins(29)
 end 

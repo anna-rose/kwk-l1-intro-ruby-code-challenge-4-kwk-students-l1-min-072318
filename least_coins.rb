@@ -29,5 +29,6 @@ dimes = cents / 10
     coins[:pennies] = pennies
   end 
 puts coins
-end 
-least_coins(29)
+coins 
+# end 
+# least_coins(29)

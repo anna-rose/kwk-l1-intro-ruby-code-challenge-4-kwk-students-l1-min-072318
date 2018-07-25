@@ -33,3 +33,5 @@ dimes = cents / 10
     coins[:pennies] = pennies
   end 
 end
+
+least_coins(50)
